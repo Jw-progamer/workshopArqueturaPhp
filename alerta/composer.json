@@ -1,0 +1,20 @@
+{
+    "name": "phppeste/alerta",
+    "description": "Registro de log",
+    "type": "library",
+    "license": "GPL-3.0",
+    "autoload":{
+      "psr-4":{
+        "PHPpeste\\":"src/"
+      }
+    },
+    "autoload-dev":{
+      "psr-4":{
+        "PHPpesteTest\\":"tests/"
+      }
+    },
+    "require": {},
+    "require-dev": {
+        "phpunit/phpunit": "^6.4"
+    }
+}
